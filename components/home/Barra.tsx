@@ -36,7 +36,7 @@ const BarraMenu = () => {
 
   return (
     <Header height={80}>
-      <div className="fixed w-full z-20 top-0 left-0 drop-shadow bg-[#95BCEC] h-16 lg:h-16 xl:px-52 lg:px-16 md:px-8 px-4">
+      <div className="fixed w-full z-20 top-0 left-0 drop-shadow bg-[#95BCEC] h-20 lg:h-20 xl:px-52 lg:px-16 md:px-8 px-4">
         <div className="lg:flex lg:flex-wrap lg:items-center lg:justify-between h-full flex items-center">
           <div className="lg:hidden grow-0">
             <ActionIcon
@@ -48,13 +48,14 @@ const BarraMenu = () => {
               <IconMenu2 size={24} color="black" />
             </ActionIcon>
           </div>
-          <div className="grow text-center mx-auto lg:mx-0 lg:grow-0 lg:text-left h-[25px] w-[20px] relative lg:h-[50px] lg:w-[150px]">
+          <div className="flex items-center justify-center text-center mx-auto lg:mx-0 lg:grow-0 lg:text-left h-[25px] w-[20px] relative lg:h-[50px] lg:w-[150px]">
             <Link href="/">
               <Image
                 src="/images/logo.png"
                 alt="Logo"
                 objectFit="contain"
-                layout="fill"
+                width={80}
+                height={80}
                 className=""
               />
             </Link>
@@ -137,7 +138,7 @@ const BarraMenu = () => {
              
 
           {sections.map((item, index) => (
-            <Button className="w-full" size="xs" key={index}>
+            <Button className="w-full" size="xs" key={index} component="a" href={item.href}>
               {item.sectionName}
             </Button>
           ))}
