@@ -1,10 +1,8 @@
-import { Inter } from "next/font/google";
 import React from "react";
 import DiagramaSection from "./seccion/diagrama";
 import ComponentesSection from "./seccion/componentes";
 import CircuitoSection from "./seccion/circuito";
 
-const inter = Inter({ subsets: ["latin"] });
 
 const EspSection = () => {
   const diagrama = {

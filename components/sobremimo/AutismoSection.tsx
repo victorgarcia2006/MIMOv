@@ -42,7 +42,6 @@ const AutismoSection = () => {
                   elemento2={autismo2.caracteristica2}
                   elemento3={autismo2.caracteristica3}
                   elemento4={autismo2.caracteristica4}
-                  elemento5={autismo2.caracteristica5}
                 />
               </div>
             ))}

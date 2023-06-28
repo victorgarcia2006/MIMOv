@@ -1,8 +1,6 @@
-import { Inter } from "next/font/google";
 import React from "react";
 import ProfileBase from "./profileBase";
 
-const inter = Inter({ subsets: ["latin"] });
 
 const HeadProfile = () => {
     const profile = [

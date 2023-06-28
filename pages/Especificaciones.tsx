@@ -1,10 +1,7 @@
-import { Inter } from "next/font/google";
 import BarraMenu from "../components/home/Barra";
 import React from "react";
 import EspecificacionesHead from "@/components/especificaciones/especificacionesHead";
 import EspSection from "@/components/especificaciones/espsection";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Especificaciones() {
     return (

@@ -1,8 +1,6 @@
-import { Inter } from "next/font/google";
 import React from "react";
 import { Avatar } from "@mantine/core";
 
-const inter = Inter({ subsets: ["latin"] });
 
 interface ProfileBaseProps {
   imagen: string;

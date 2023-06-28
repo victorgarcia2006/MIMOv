@@ -1,9 +1,7 @@
-import { Inter } from "next/font/google";
 import React from "react";
 import { Carousel } from "@mantine/carousel";
 import SliderComponentes from "./sliderComponentes";
 
-const inter = Inter({ subsets: ["latin"] });
 
 const ComponentsSection = () => {
   const components = [

@@ -6,10 +6,9 @@ import { Button } from "@mantine/core";
 interface SobreMimoProps {
   subtitulo: string;
   texto: string;
-  imagem: string;
 }
 
-function SobreMimo({ subtitulo, texto, imagem }: SobreMimoProps) {
+function SobreMimo({ subtitulo, texto }: SobreMimoProps) {
   return (
     <div>
       <div className="bg-white w-full px-40 py-40 flex justify-between items-center">

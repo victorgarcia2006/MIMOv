@@ -3,10 +3,9 @@ import { Inter } from "next/font/google";
 interface cabezeraProps {
   titulo: string;
   descripcion: string;
-  imagen: string;
 }
 
-function Cabezera({ titulo, descripcion, imagen }: cabezeraProps) {
+function Cabezera({ titulo, descripcion }: cabezeraProps) {
   return (
     <div>
       <div className="w-full h-screen bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-center">

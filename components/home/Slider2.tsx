@@ -1,4 +1,5 @@
 import { Carousel } from "@mantine/carousel";
+import { Image } from "@mantine/core";	
 
 interface Slider2Props {
   imagenes: string[];
@@ -7,7 +8,7 @@ interface Slider2Props {
 function Slider2({ imagenes }: Slider2Props) {
   const slices = imagenes.map((imagen) => (
     <Carousel.Slide key={imagen} gap="xs" className="flex items-center justify-center">
-      <img src={imagen} alt="" className="w-40 h-40 rounded-3xl object-cover" />
+      <Image src={imagen} alt="" width={160} height={160} radius={20} className="w-40 h-40 rounded-3xl object-cover" />
     </Carousel.Slide>
   ));
   return (

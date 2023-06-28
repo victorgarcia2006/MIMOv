@@ -6,10 +6,9 @@ import { Button } from "@mantine/core";
 interface EspecificacionesProps {
   subtitulo: string;
   texto: string;
-  imagem: string;
 }
 
-function Especificaciones({ subtitulo, texto, imagem }: EspecificacionesProps) {
+function Especificaciones({ subtitulo, texto }: EspecificacionesProps) {
   return (
     <div>
       <div className="bg-white w-full px-40 py-40 flex justify-between items-center">

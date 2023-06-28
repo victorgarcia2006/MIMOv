@@ -1,8 +1,6 @@
-import { Inter } from "next/font/google";
 import React from "react";
 import SliderEsp from "../sliderEsp";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function CircuitoSection() {
   return (

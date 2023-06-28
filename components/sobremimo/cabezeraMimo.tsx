@@ -1,10 +1,9 @@
-import { Inter } from "next/font/google";
 import ImagesHead from "@/components/sobremimo/ImagesHead";
 
 interface cabezeraMimoProps {
   titulo: string;
   descripcion: string;
-  imagen: string;
+  imagen?: string;
 }
 
 function CabezeraMimo({ titulo, descripcion, imagen }: cabezeraMimoProps) {

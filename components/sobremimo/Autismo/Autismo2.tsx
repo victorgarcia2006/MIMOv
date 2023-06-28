@@ -4,10 +4,9 @@ interface Autismo2Props {
     elemento2: string;
     elemento3: string;
     elemento4: string;
-    elemento5: string;
 }
 
-function Autismo2({ title, elemento1, elemento2, elemento3, elemento4, elemento5 }: Autismo2Props) {
+function Autismo2({ title, elemento1, elemento2, elemento3, elemento4 }: Autismo2Props) {
     return <div>
         <div className="">
             <h2>{title}</h2>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import BarraMenu from "../components/home/Barra";
 import Cabezera from "../components/home/Cabezera";
 import SobreMimo from "../components/home/sobreMimo";
@@ -24,8 +22,6 @@ import {
   Button,
   Card,
 } from "@mantine/core";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (

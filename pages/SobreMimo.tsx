@@ -1,11 +1,7 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import BarraMenu from "../components/home/Barra";
 import CabezeraMimo from "@/components/sobremimo/cabezeraMimo";
 import AutismoSection from "@/components/sobremimo/AutismoSection";
 import VideoSection from "@/components/sobremimo/Video";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function SobreMimo() {
     return(
