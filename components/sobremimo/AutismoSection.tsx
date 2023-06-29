@@ -20,8 +20,8 @@ const AutismoSection = () => {
   ];
   return (
     <section>
-      <div className="bg-white py-20 ">
-        <div className="flex flex-row justify-center pr-40 items-start">
+      <div className="bg-white py-20">
+        <div className="flex flex-row justify-center pr-20 items-start">
           <div>
             {autismo.map((autismo, index) => (
               <div key={index}>
@@ -32,7 +32,7 @@ const AutismoSection = () => {
               </div>
             ))}
           </div>
-          <div className="border-solid border-black border-l-[1px] w-[0.25px] h-96 my-auto mx-32" />
+          <div className="border-solid border-black border-l-[1px] w-[0.25px] h-96 my-auto mx-32 max-lg:mx-10 max-lg:h-[480px]" />
           <div>
             {autismo2.map((autismo2, index) => (
               <div key={index}>
