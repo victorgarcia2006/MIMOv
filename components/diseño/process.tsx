@@ -1,19 +1,32 @@
+import { Card, Group, Image } from "@mantine/core";
+
 interface ProcesoProps {
-    subtitulo: string;
-    texto: string;
-    imagen: string;
+  subtitulo: string;
+  texto: string;
+  imagen: string;
 }
 
 function Proceso({ subtitulo, texto, imagen }: ProcesoProps) {
-    return (
-        <div className="flex flex-col justify-center items-center">
-            <img src={imagen} alt="" className="w-96 h-96"/>
-            <div className="text-center">
-                <h3>{subtitulo}</h3>
-                <p className="w-96">{texto}</p>
-            </div>
+  return (
+    <Card
+      className="flex justify-center items-center w-[500px] h-[700px] "
+      shadow="sm"
+      padding="lg"
+      radius="md"
+      withBorder
+    >
+      <Card.Section>
+        <Image src={imagen} alt="" className="" height={400} />
+      </Card.Section>
+
+      <Group>
+        <div className="text-center">
+          <h3>{subtitulo}</h3>
         </div>
-    )
+        <p className="text-justify">{texto}</p>
+      </Group>
+    </Card>
+  );
 }
 
-export default Proceso
+export default Proceso;
