@@ -9,7 +9,7 @@ interface diagramaSectionProps {
 
 function DiagramaSection({ titulo, imagen }: diagramaSectionProps) {
     return (
-        <aside className="px-20 py-10">
+        <aside className="px-20 py-10 flex flex-col max-2xl:items-center">
             <h2>{titulo}</h2>
             <img src={imagen} alt="" className="w-[600px] h-[600px] rounded-xl mt-10" />
         </aside>

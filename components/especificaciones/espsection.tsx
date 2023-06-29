@@ -12,7 +12,7 @@ const EspSection = () => {
 
   return (
     <section className="bg-white">
-      <div className="flex">
+      <div className="flex max-2xl:flex-col">
         <div>
           <DiagramaSection titulo={diagrama.titulo} imagen={diagrama.imagen} />
         </div>
