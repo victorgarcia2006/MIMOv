@@ -16,7 +16,8 @@ function Slider({ imagenes }: SliderProps) {
         alt=""
         width={600}
         height={500}
-        className="w-[600px] h-[500px] rounded-3xl mt-10 object-cover absolute "
+        className="w-[600px] h-[500px] mt-10 object-cover absolute "
+        radius="xl"
       />
     </Carousel.Slide>
   ));

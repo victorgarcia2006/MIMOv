@@ -11,13 +11,15 @@ interface EspecificacionesProps {
 function Especificaciones({ subtitulo, texto }: EspecificacionesProps) {
   return (
     <div>
-      <div className="bg-white w-full px-40 py-40 flex justify-between items-center">
+      <div className="bg-white w-full px-40 py-40 flex justify-between items-center max-2xl:flex-col-reverse">
         <div>
           <h2>{subtitulo}</h2>
-          <p className="text-black w-80 py-6">{texto}</p>
-          <Button component="a" href="/Especificaciones">
-            See More
-          </Button>
+          <p className="text-black text-justify w-80 py-6 max-2xl:w-96">{texto}</p>
+          <div className="flex max-2xl:justify-center">
+            <Button component="a" href="/Especificaciones">
+              See More
+            </Button>
+          </div>
         </div>
         <div>
           <div>

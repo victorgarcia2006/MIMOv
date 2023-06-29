@@ -2,11 +2,14 @@ import BarraMenu from "../components/home/Barra";
 import CabezeraMimo from "@/components/sobremimo/cabezeraMimo";
 import AutismoSection from "@/components/sobremimo/AutismoSection";
 import VideoSection from "@/components/sobremimo/Video";
+import { AppShell } from "@mantine/core";
 
 export default function SobreMimo() {
     return(
-        <main>
-            <BarraMenu></BarraMenu>
+        <AppShell
+            header={<BarraMenu/>}
+            padding={0}
+        >
             <CabezeraMimo
                 titulo = "¿Quien es MIMO?"
                 descripcion="MIMO, es una herramienta que pretende fungir como un apoyo didáctico en
@@ -20,6 +23,6 @@ export default function SobreMimo() {
             />
             <AutismoSection></AutismoSection>
             <VideoSection></VideoSection>
-        </main>
+        </AppShell>
     );
 }
