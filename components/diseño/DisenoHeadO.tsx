@@ -16,7 +16,7 @@ const DisenoHeadO = () => {
   return (
     <section>
       <div>
-        <div className="w-full h-2/3 bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-start justify-center text-center flex-col absolute">
+        <div className="w-full h-2/3 bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-start justify-center text-center flex-col absolute max-2xl:bg-[center_top_0rem]">
           <div>
             <h1 className="text-5xl">Diseño de MIMO</h1>
             <p className="py-6 text-white ">

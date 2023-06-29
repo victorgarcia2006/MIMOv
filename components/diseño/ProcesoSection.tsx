@@ -36,7 +36,7 @@ const ProcesoSection = () => {
           <h2 className="text-center">Proceso del modelado</h2>
         </div>
         <div className="flex items-center justify-center my-10">
-          <div className="grid grid-cols-2 gap-40">
+          <div className="grid grid-cols-2 gap-40 max-xl:flex max-xl:flex-col">
             {section.map((section, index) => (
               <div key={index}>
                 <Proceso
