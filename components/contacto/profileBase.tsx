@@ -14,7 +14,7 @@ function ProfileBase({ imagen, name, correo }: ProfileBaseProps) {
       <Avatar src={imagen} size={144} radius={144}></Avatar>
       <div>
         <h3 className="text-white">{name}</h3>
-        <a href={`mailto:${correo}`} className="text-white">{correo}</a>
+        <a href={`mailto:${correo}`} className="text-white max-md:text-sm">{correo}</a>
       </div>
     </div>
   );

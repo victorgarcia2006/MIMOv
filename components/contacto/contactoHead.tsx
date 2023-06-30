@@ -6,7 +6,7 @@ export default function ContactoHead() {
   return (
     <section>
       <div>
-        <div className="w-full h-screen bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-start justify-center text-center">
+        <div className="w-full h-screen bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-start justify-center text-center max-2xl:bg-[center_top_0rem]">
           <div>
             <h1 className="text-5xl py-10">¡CONTACTANOS!</h1>
             <HeadProfile/>

@@ -23,12 +23,17 @@ const HeadProfile = () => {
             imagen: "images/dani.jpg",
             name: "Daniela Meneses",
             correo: "danielameneses5170@gmail.com"
+        },
+        {
+            imagen: "null",
+            name: "Diego Villa",
+            correo: "dvillad06@gmail.com"
         }
     ];
 
     return (
         <div>
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between max-2xl:grid max-2xl:grid-cols-3 max-md:gap-x-52 max-2xl:gap-x-60 max-2xl:justify-items-center">
                 {profile.map((profile, index) => (
                     <div key={index}>
                         <ProfileBase
