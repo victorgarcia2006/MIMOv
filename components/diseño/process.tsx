@@ -9,7 +9,7 @@ interface ProcesoProps {
 function Proceso({ subtitulo, texto, imagen }: ProcesoProps) {
   return (
     <Card
-      className="flex justify-center items-center w-[500px] h-[700px] max-xl:w-80"
+      className="flex justify-center items-center w-[500px] h-[700px] max-xl:w-80 max-xl:h-[840px]"
       shadow="sm"
       padding="lg"
       radius="md"
