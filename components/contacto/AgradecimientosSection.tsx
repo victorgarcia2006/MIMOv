@@ -60,7 +60,7 @@ const AgradecimientosSection = () => {
         <div>
             <div className="flex flex-col items-center my-10">
                 <h2 className=" text-black">Agradecimientos</h2>
-                <div className="grid grid-cols-2 gap-x-60 max-xl:flex max-xl:flex-col max-xl:gap-y-10">
+                <div className="grid grid-cols-2 gap-x-60 max-xl:flex max-xl:flex-col max-xl:gap-y-10 max-xl:ml-5">
                     {agradecimientos.map((agradecimientos, index) => (
                         <div key={index}>
                             <AgradecimientosBase

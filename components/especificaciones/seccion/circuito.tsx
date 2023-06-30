@@ -5,8 +5,8 @@ import SliderEsp from "../sliderEsp";
 export default function CircuitoSection() {
   return (
     <div className="flex flex-row items-center justify-around max-xl:flex-col max-xl:gap-20">
-      <div className="flex flex-col justify-center items-center text-center max-xl:text-start max-xl:items-start">
-        <h2 className="w-80 max-2xl:w-full">Proceso de pruebas y cableado </h2>
+      <div className="flex flex-col justify-center items-center text-center max-xl:text-start max-xl:items-center">
+        <h2 className="w-80 max-xl:w-60 ">Proceso de pruebas y cableado </h2>
         <SliderEsp
           imagenes={[
             "/images/especificaciones/proceso1.jpg",
@@ -30,7 +30,7 @@ export default function CircuitoSection() {
           <img
             src="images/circuito2.jpg"
             alt=""
-            className="w-[600px] h-[600px] rounded-xl mt-10 object-cover"
+            className="w-[600px] h-[600px] rounded-xl mt-10 object-cover max-xl:w-full max-xl:h-full"
           />
         </div>
       </div>

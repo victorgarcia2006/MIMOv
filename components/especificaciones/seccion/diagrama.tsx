@@ -11,7 +11,7 @@ function DiagramaSection({ titulo, imagen }: diagramaSectionProps) {
     return (
         <aside className="px-20 py-10 flex flex-col max-2xl:items-center">
             <h2>{titulo}</h2>
-            <img src={imagen} alt="" className="w-[600px] h-[600px] rounded-xl mt-10" />
+            <img src={imagen} alt="" className="w-[600px] h-[600px] rounded-xl mt-10 max-xl:w-80 max-xl:h-80" />
         </aside>
     );
 }

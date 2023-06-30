@@ -67,7 +67,7 @@ const ComponentsSection = () => {
     },
   ];
   return (
-    <div className="px-20 py-10">
+    <div className="px-20 py-10 max-xl:px-5">
       <h2>Componentes</h2>
       <Carousel
         withControls
@@ -76,6 +76,7 @@ const ComponentsSection = () => {
         align="start"
         orientation="vertical"
         height={620}
+        w={400}
       >
         {components.map((component, index) => (
           <div key={index}>

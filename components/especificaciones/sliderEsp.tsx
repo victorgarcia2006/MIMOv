@@ -13,7 +13,7 @@ function SliderEsp({ imagenes }: SliderEspProps) {
       <img
         src={imagen}
         alt=""
-        className="w-[600px] h-[600px] rounded-3xl mt-10"
+        className="w-[600px] h-[600px] rounded-3xl mt-10 max-xl:w-full max-xl:h-full"
       />
     </Carousel.Slide>
   ));
@@ -28,6 +28,7 @@ function SliderEsp({ imagenes }: SliderEspProps) {
       plugins={[autoplay.current]}
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={autoplay.current.reset}
+      className="max-xl:w-full max-xl:h-full"
     >
       {slides}
     </Carousel>

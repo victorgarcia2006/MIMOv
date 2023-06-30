@@ -14,7 +14,7 @@ function SobreMimo({ subtitulo, texto }: SobreMimoProps) {
       <div className="bg-white w-full px-40 py-40 flex justify-between items-center max-md:flex-col-reverse max-2xl:flex-col-reverse">
         <div className="">
           <h2>{subtitulo}</h2>
-          <p className="text-black w-96 text-justify">{texto}</p>
+          <p className="text-black w-96 text-justify max-[500px]:w-72">{texto}</p>
           <div className="max-2xl:flex max-2xl:justify-center">
             <Button component="a" href="/SobreMimo">
               See More

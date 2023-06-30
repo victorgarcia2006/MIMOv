@@ -33,7 +33,7 @@ const HeadProfile = () => {
 
     return (
         <div>
-            <div className="flex flex-row justify-between max-2xl:grid max-2xl:grid-cols-3 max-md:gap-x-52 max-2xl:gap-x-60 max-2xl:justify-items-center">
+            <div className="flex flex-row justify-between max-2xl:grid max-2xl:grid-cols-2 max-md:gap-x-0 max-2xl:gap-x-60 max-2xl:justify-items-center ">
                 {profile.map((profile, index) => (
                     <div key={index}>
                         <ProfileBase
