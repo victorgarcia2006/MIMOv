@@ -16,7 +16,7 @@ const HeadProfile = () => {
         },
         {
             imagen: "images/femat.jpg",
-            name: "Carlos Femat",
+            name: "MTI. Carlos Femat",
             correo: "cfemat@ipn.mx"
         },
         {
@@ -25,7 +25,7 @@ const HeadProfile = () => {
             correo: "danielameneses5170@gmail.com"
         },
         {
-            imagen: "null",
+            imagen: "images/villa.jpg",
             name: "Diego Villa",
             correo: "dvillad06@gmail.com"
         }

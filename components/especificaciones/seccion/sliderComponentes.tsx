@@ -12,7 +12,7 @@ function SliderComponentes({
   description,
 }: sliderComponentesProps) {
   return (
-    <div className="rounded-xl mt-[72px] flex flex-row items-center">
+    <div className="rounded-xl mt-[72px] flex flex-row items-center ">
       <div>
         <img src={imagen} alt="" className="w-32 h-20 rounded-2xl pr-6"/>
       </div>

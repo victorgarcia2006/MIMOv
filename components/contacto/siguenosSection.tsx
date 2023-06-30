@@ -1,4 +1,4 @@
-import { IconBrandInstagram, IconBrandTiktok, IconBrandYoutube } from "@tabler/icons-react";
+import { IconBrandInstagram, IconBrandTiktok, IconBrandYoutube, IconBrandGmail } from "@tabler/icons-react";
 import Link from "next/link";
 import React from "react";
 
@@ -19,11 +19,16 @@ const SiguenosSection = () => {
       texto: "YouTube",
       href: "https://www.youtube.com/channel/UCRuje5a2lEG8RfybMDwfxnA",
     },
+    {
+      imagen: React.createElement(IconBrandGmail),
+      texto: "Correo",
+      href: "mailto:mimoficial4im3@gmail.com", 
+    }
   ];
   return (
-    <section>
+    <section className="my-20">
       <h2 className="text-center">¡SÍGUENOS!</h2>
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-4 max-xl:grid-cols-2">
         {siguenos.map((siguenos, index) => (
           <div key={index}>
             <div className="flex justify-around">

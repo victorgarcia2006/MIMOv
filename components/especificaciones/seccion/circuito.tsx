@@ -4,8 +4,8 @@ import SliderEsp from "../sliderEsp";
 
 export default function CircuitoSection() {
   return (
-    <div className="flex flex-row items-center justify-around max-2xl:flex-col max-2xl:gap-20">
-      <div className="flex flex-col justify-center items-center text-center max-2xl:text-start max-2xl:items-start">
+    <div className="flex flex-row items-center justify-around max-xl:flex-col max-xl:gap-20">
+      <div className="flex flex-col justify-center items-center text-center max-xl:text-start max-xl:items-start">
         <h2 className="w-80 max-2xl:w-full">Proceso de pruebas y cableado </h2>
         <SliderEsp
           imagenes={[
@@ -24,7 +24,7 @@ export default function CircuitoSection() {
           ]}
         />
       </div>
-      <div className="flex flex-col items-center justify-start text-center max-2xl:text-start max-2xl:items-start">
+      <div className="flex flex-col items-center justify-start text-center max-xl:text-start max-xl:items-start">
         <h2 className="w-80 max-2xl:w-full">Circuito por dentro del peluche </h2>
         <div>
           <img
