@@ -12,7 +12,7 @@ interface especificacionesHeadProps {
 function EspecificacionesHead({ titulo, descripcion }: especificacionesHeadProps) {
   return (
     <div>
-      <div className="w-full h-screen bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-center justify-center max-2xl:bg-[center_top_0rem]">
+      <div className="w-full h-screen bg-fixed bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-center justify-center max-2xl:bg-[center_top_0rem]">
         <div className="text-center flex flex-col justify-center">
           <h1 className="text-5xl">{titulo}</h1>
           <p className="py-12 text-white">{descripcion}</p>
