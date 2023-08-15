@@ -48,7 +48,7 @@ const BarraMenu = () => {
               <IconMenu2 size={24} color="black" />
             </ActionIcon>
           </div>
-          <div className="flex items-center justify-center text-center mx-auto lg:mx-0 lg:grow-0 lg:text-left h-[25px] w-[20px] relative lg:h-[50px] lg:w-[150px]">
+          <div className="flex items-center justify-center text-center mx-auto lg:mx-0 lg:grow-0 lg:text-left relative h-[25px] w-[20px]  lg:h-[50px] lg:w-[150px]">
             <Link href="/">
               <Image
                 src="/images/logo.png"
