@@ -21,14 +21,6 @@ const BarraMenu = () => {
       href: "/SobreMimo",
     },
     {
-      sectionName: "Diseño",
-      href: "/Diseno",
-    },
-    {
-      sectionName: "Especificaciones",
-      href: "/Especificaciones",
-    },
-    {
       sectionName: "Contacto",
       href: "/Contacto",
     },
