@@ -1,8 +1,6 @@
 import BarraMenu from "../components/home/Barra";
 import Cabezera from "../components/home/Cabezera";
 import SobreMimo from "../components/home/sobreMimo";
-import Diseño from "../components/home/diseño";
-import Especificaciones from "../components/home/especificaciones";
 import Boton from "../components/home/Boton";
 import {
   AppShell,
@@ -41,18 +39,6 @@ export default function Home() {
         identificar 5 emociones básicas en personas subclínicas: alegría, tristeza, enojo, 
         angustia y miedo. Por otro lado, para personas de grado I y II, funcionará como medio 
         de comunicación y control en crisis al utilizar el peluche como expresión emocional. "
-      />
-      <Diseño
-        subtitulo="Diseño"
-        texto="Se usó tela suave y azul por el autismo; se usaron patrones de internet, 
-        adaptados a las medidas del circuito y la placa de Leds. "
-      />
-      <Especificaciones
-        subtitulo="Especificaciones"
-        texto="Con el objetivo de brindar una solución más completa y personalizada, 
-        el grupo 4IM3 propone un Proyecto el cual consiste en un peluche que implementa 
-        la tecnología del microcontrolador Arduino en conjunto de una matriz de LEDs de 
-        Neopixel RGB."
       />
     </AppShell>
   );

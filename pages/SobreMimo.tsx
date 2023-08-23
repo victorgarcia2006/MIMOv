@@ -1,7 +1,6 @@
 import BarraMenu from "../components/home/Barra";
 import CabezeraMimo from "@/components/sobremimo/cabezeraMimo";
 import AutismoSection from "@/components/sobremimo/AutismoSection";
-import VideoSection from "@/components/sobremimo/Video";
 import { AppShell } from "@mantine/core";
 
 export default function SobreMimo() {
@@ -22,7 +21,6 @@ export default function SobreMimo() {
                 verbalmente. "
             />
             <AutismoSection></AutismoSection>
-            <VideoSection></VideoSection>
         </AppShell>
     );
 }
