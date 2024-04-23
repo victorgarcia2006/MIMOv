@@ -30,6 +30,37 @@ function VisionMision() {
         necesidades al resto de personas, fomentando su desarrollo social y
         mejorando su bienestar.
       </p>
+      <h2>Ventajas</h2>
+      <ol className="text-justify max-md:text-center max-2xl:text-center">
+        <li>
+          Facilita la comunicación: El peluche tecnológico proporciona una forma
+          visual y tangible de expresar emociones y necesidades, lo que puede
+          ser especialmente útil para aquellos con dificultades en la
+          comunicación verbal.
+        </li>
+        <li>
+          Apoyo emocional: El peluche puede servir como un compañero
+          reconfortante que ayuda a calmar la ansiedad y proporciona consuelo en
+          momentos de estrés, ayudando así a regular las emociones.
+        </li>
+        <li>
+          Fomenta la interacción social: Al permitir que la persona con autismo
+          practique habilidades sociales con el peluche, como turnarse para
+          hablar o expresar empatía, se promueve el desarrollo de habilidades
+          sociales importantes.
+        </li>
+        <li>
+          Personalización: Los peluches pueden adaptarse a las preferencias
+          individuales de cada persona, desde el diseño hasta las funciones
+          específicas que mejor se ajusten a sus necesidades y gustos.
+        </li>
+        <li>
+          Estímulo sensorial controlado: Algunos peluches pueden incluir
+          características sensoriales específicas, como luces suaves o música
+          calmante, que pueden ayudar a modular la respuesta sensorial de la
+          persona con autismo en entornos sobreestimulantes.
+        </li>
+      </ol>
     </div>
   );
 }
