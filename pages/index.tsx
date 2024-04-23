@@ -1,32 +1,12 @@
 import BarraMenu from "../components/home/Barra";
 import Cabezera from "../components/home/Cabezera";
 import SobreMimo from "../components/home/sobreMimo";
-import Boton from "../components/home/Boton";
-import {
-  AppShell,
-  Navbar,
-  Header,
-  Footer,
-  Aside,
-  Text,
-  MediaQuery,
-  Burger,
-  useMantineTheme,
-  Box,
-  BackgroundImage,
-  Center,
-  Container,
-  Grid,
-  Button,
-  Card,
-} from "@mantine/core";
+import VisionMision from '../components/home/visionmision';
+import { AppShell } from "@mantine/core";
 
 export default function Home() {
   return (
-    <AppShell
-      header={<BarraMenu/>}
-      padding={0}
-    >
+    <AppShell header={<BarraMenu />} padding={0}>
       <Cabezera
         titulo="MIMO"
         descripcion="MIMO, es una herramienta que pretende fungir como un apoyo didáctico en
@@ -40,6 +20,7 @@ export default function Home() {
         angustia y miedo. Por otro lado, para personas de grado I y II, funcionará como medio 
         de comunicación y control en crisis al utilizar el peluche como expresión emocional. "
       />
+      <VisionMision />
     </AppShell>
   );
 }

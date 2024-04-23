@@ -14,9 +14,9 @@ function Slider({ imagenes }: SliderProps) {
       <Image
         src={imagen}
         alt=""
-        width={600}
-        height={500}
-        className="w-[600px] h-[500px] mt-10 object-cover absolute "
+        width={500}
+        height={640}
+        className="mt-10 object-cover absolute top-0 left-0 right-0 bottom-0 mx-auto"
         radius="xl"
       />
     </Carousel.Slide>
@@ -27,8 +27,8 @@ function Slider({ imagenes }: SliderProps) {
       withIndicators
       slideSize="100%"
       loop
-      w={600}
-      height={540}
+      w={500}
+      height={720}
       plugins={[autoplay.current]}
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={autoplay.current.reset}

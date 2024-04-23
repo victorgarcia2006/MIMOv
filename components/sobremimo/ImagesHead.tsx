@@ -5,16 +5,16 @@ import { Carousel } from "@mantine/carousel";
 const ImagesHead = () => {
   const img = [
     {
-      src: "images/mimofeliz.jpg",
+      src: "images/newmimo5.jpg",
     },
     {
-      src: "images/mimotriste.jpg",
+      src: "images/newmimo4.jpg",
     },
     {
-      src: "images/mimoenojado.jpg",
+      src: "images/newmimo3.jpg",
     },
     {
-      src: "images/mimoangustia.jpg",
+      src: "images/newmimo2.jpg",
     },
   ];
 

@@ -14,20 +14,21 @@ function SobreMimo({ subtitulo, texto }: SobreMimoProps) {
       <div className="bg-white w-full px-40 py-40 flex justify-between items-center max-md:flex-col-reverse max-2xl:flex-col-reverse">
         <div className="">
           <h2>{subtitulo}</h2>
-          <p className="text-black w-96 text-justify max-[500px]:w-72">{texto}</p>
+          <p className="text-black w-96 text-justify max-[500px]:w-72 text-lg">{texto}</p>
           <div className="max-2xl:flex max-2xl:justify-center">
             <Button component="a" href="/SobreMimo">
-              See More
+              Ver más
             </Button>
           </div>
         </div>
         <div className="">
           <Slider
             imagenes={[
-              "images/mimo5.jpg",
-              "images/mimo6.jpg",
-              "images/mimo7.jpg",
-              "images/mimo8.jpg",
+              "images/newmimo5.jpg",
+              "images/newmimo4.jpg",
+              "images/newmimo3.jpg",
+              "images/newmimo2.jpg",
+              "images/newmimo1.jpg",
             ]}
           />
         </div>
