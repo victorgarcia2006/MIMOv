@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: reemplazar https://mimo.example.com por el dominio real de producción en las 3 URLs de abajo. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mimo.example.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mimo.example.com/SobreMimo</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mimo.example.com/Contacto</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>

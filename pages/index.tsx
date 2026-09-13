@@ -2,10 +2,17 @@ import BarraMenu from "../components/home/Barra";
 import Cabezera from "../components/home/Cabezera";
 import SobreMimo from "../components/home/sobreMimo";
 import VisionMision from '../components/home/visionmision';
+import Seo from "@/components/Seo";
 import { AppShell } from "@mantine/core";
 
 export default function Home() {
   return (
+    <>
+    <Seo
+      title="MIMO — Peluche interactivo para el desarrollo socioemocional infantil"
+      description="MIMO es un peluche interactivo que ayuda a niños de 4 a 8 años a reconocer, nombrar y comprender sus emociones, con rostro expresivo, vibración y tarjetas."
+      path="/"
+    />
     <AppShell header={<BarraMenu />} padding={0}>
       <Cabezera
         titulo="MIMO"
@@ -21,5 +28,6 @@ export default function Home() {
       />
       <VisionMision />
     </AppShell>
+    </>
   );
 }

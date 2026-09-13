@@ -1,10 +1,17 @@
 import BarraMenu from "../components/home/Barra";
 import CabezeraMimo from "@/components/sobremimo/cabezeraMimo";
 import AutismoSection from "@/components/sobremimo/AutismoSection";
+import Seo from "@/components/Seo";
 import { AppShell } from "@mantine/core";
 
 export default function SobreMimo() {
     return(
+        <>
+        <Seo
+            title="¿Quién es MIMO? — Peluche interactivo para niños"
+            description="Conoce a MIMO: un peluche interactivo para el desarrollo socioemocional infantil, con un motor de actividades que se adapta al ritmo de cada niño, a su manera."
+            path="/SobreMimo"
+        />
         <AppShell
             header={<BarraMenu/>}
             padding={0}
@@ -17,5 +24,6 @@ export default function SobreMimo() {
             />
             <AutismoSection></AutismoSection>
         </AppShell>
+        </>
     );
 }
