@@ -1,4 +1,4 @@
-import { ActionIcon, Button, useMantineTheme } from "@mantine/core";
+import { ActionIcon, Button } from "@mantine/core";
 import Image from "next/image";
 import { IconMenu2 } from "@tabler/icons-react";
 import Link from "next/link";
@@ -7,7 +7,6 @@ import { useState } from "react";
 import { Header } from "@mantine/core";
 
 const BarraMenu = () => {
-  const theme = useMantineTheme();
   const router = useRouter();
   const [isNavOpen, setIsNavOpen] = useState(false);
   const isActiveRoute = (path: string) => {
@@ -28,7 +27,7 @@ const BarraMenu = () => {
 
   return (
     <Header height={80}>
-      <div className="fixed w-full z-20 top-0 left-0 drop-shadow bg-[#95BCEC] h-20 lg:h-20 xl:px-52 lg:px-16 md:px-8 px-4">
+      <div className="fixed w-full z-20 top-0 left-0 border-b border-primary-light bg-white h-20 lg:h-20 xl:px-52 lg:px-16 md:px-8 px-4">
         <div className="lg:flex lg:flex-wrap lg:items-center lg:justify-between h-full flex items-center">
           <div className="lg:hidden grow-0">
             <ActionIcon
@@ -55,19 +54,22 @@ const BarraMenu = () => {
           <div className="hidden lg:flex lg:justify-between lg:items-center lg:flex-row">
             <ul
               style={{ listStyle: "none" }}
-              className="lg:gap-14 hidden lg:flex"
+              className="lg:gap-10 hidden lg:flex"
             >
-              {/* text-xl font-bold */}
               {sections.map((item) => (
                 <li key={item.sectionName}>
                   <Link href={item.href} legacyBehavior>
                     <a
                       className={
-                        isActiveRoute(item.href)
-                          ? "text-[#234269] text-xl font-bold"
-                          : "text-xl font-bold text-[#234269] no-underline"
+                        "font-heading text-lg no-underline inline-flex items-center gap-2 " +
+                        (isActiveRoute(item.href)
+                          ? "text-accent font-semibold"
+                          : "text-ink font-medium")
                       }
                     >
+                      {isActiveRoute(item.href) && (
+                        <Image src="/images/heart-icon.png" alt="" width={14} height={14} />
+                      )}
                       {item.sectionName}
                     </a>
                   </Link>

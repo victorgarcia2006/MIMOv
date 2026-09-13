@@ -1,6 +1,4 @@
-import { Inter } from "next/font/google";
-import Boton from "./Boton";
-import Slider from "./Slider";
+import Image from "next/image";
 import { Button } from "@mantine/core";
 
 interface SobreMimoProps {
@@ -10,27 +8,25 @@ interface SobreMimoProps {
 
 function SobreMimo({ subtitulo, texto }: SobreMimoProps) {
   return (
-    <div>
-      <div className="bg-white w-full px-40 py-40 flex justify-between items-center max-md:flex-col-reverse max-2xl:flex-col-reverse">
-        <div className="">
-          <h2>{subtitulo}</h2>
-          <p className="text-black w-96 text-justify max-[500px]:w-72 text-lg">{texto}</p>
-          <div className="max-2xl:flex max-2xl:justify-center">
-            <Button component="a" href="/SobreMimo">
-              Ver más
-            </Button>
+    <div className="bg-secondary py-16 md:py-24">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-12">
+        <div className="flex-1 flex justify-center">
+          <div className="relative w-56 h-72 md:w-64 md:h-80 rounded-[2rem] overflow-hidden shadow-sm">
+            <Image
+              src="/images/mimo-perfil.jpeg"
+              alt="MIMO visto de perfil"
+              fill
+              sizes="(max-width: 768px) 224px, 256px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
         </div>
-        <div className="">
-          <Slider
-            imagenes={[
-              "images/newmimo5.jpg",
-              "images/newmimo4.jpg",
-              "images/newmimo3.jpg",
-              "images/newmimo2.jpg",
-              "images/newmimo1.jpg",
-            ]}
-          />
+        <div className="flex-1 flex flex-col items-start gap-5">
+          <h2 className="font-heading text-3xl text-ink">{subtitulo}</h2>
+          <p className="font-body text-ink-muted text-lg max-w-md">{texto}</p>
+          <Button component="a" href="/SobreMimo" radius="xl" color="mimo-blue">
+            Ver más
+          </Button>
         </div>
       </div>
     </div>
