@@ -1,18 +1,17 @@
 import React from "react";
 import HeadProfile from "./headProfile";
 
-
 export default function ContactoHead() {
   return (
-    <section>
-      <div>
-        <div className="w-full h-screen bg-fixed bg-[url('/images/mimo.jpg')] bg-[center_-10rem] bg-cover px-40 flex items-start justify-center text-center max-2xl:bg-[center_top_0rem] max-md:h-[1000px]">
-          <div>
-            <h1 className="text-5xl py-10 max-xl:py-0">¡CONTACTANOS!</h1>
-            <HeadProfile/>
-          </div>
+    <>
+      <section className="bg-primary-light pt-32 pb-14 md:pt-40 md:pb-16 text-center">
+        <h1 className="font-heading text-4xl md:text-5xl text-ink">¡Contáctanos!</h1>
+      </section>
+      <section className="bg-base py-16 md:py-20">
+        <div className="max-w-5xl mx-auto px-6">
+          <HeadProfile />
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

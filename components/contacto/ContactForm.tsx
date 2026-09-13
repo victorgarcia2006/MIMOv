@@ -53,59 +53,65 @@ function ContactForm() {
 
   if (status === "success") {
     return (
-      <section className="py-20 px-10 text-center">
-        <p className="text-lg">¡Gracias! Te contactaremos pronto.</p>
+      <section className="bg-secondary py-16 md:py-20">
+        <div className="max-w-md mx-auto px-6 text-center bg-white rounded-2xl shadow-sm p-10">
+          <p className="font-heading text-xl text-ink">¡Gracias! Te contactaremos pronto.</p>
+        </div>
       </section>
     );
   }
 
   return (
-    <section className="py-20 px-10">
-      <h2 className="text-center">Escríbenos</h2>
-      <form onSubmit={handleSubmit} className="max-w-md mx-auto flex flex-col gap-4">
-        <input
-          type="text"
-          name="_gotcha"
-          tabIndex={-1}
-          autoComplete="off"
-          className="absolute -left-[9999px] h-px w-px overflow-hidden"
-          aria-hidden="true"
-        />
-        <TextInput
-          label="Nombre"
-          name="name"
-          withAsterisk
-          value={values.name}
-          onChange={(event) => setValues({ ...values, name: event.currentTarget.value })}
-          error={errors.name}
-        />
-        <TextInput
-          label="Correo"
-          name="email"
-          type="email"
-          withAsterisk
-          value={values.email}
-          onChange={(event) => setValues({ ...values, email: event.currentTarget.value })}
-          error={errors.email}
-        />
-        <Textarea
-          label="Mensaje"
-          name="message"
-          withAsterisk
-          minRows={4}
-          value={values.message}
-          onChange={(event) => setValues({ ...values, message: event.currentTarget.value })}
-          error={errors.message}
-        />
-        {status === "error" && (
-          <p className="text-red-500 text-sm">
-            Hubo un problema al enviar tu mensaje. Intenta de nuevo o escríbenos por redes sociales.
-          </p>
-        )}
-        <Button type="submit" loading={status === "submitting"}>
-          Enviar
-        </Button>
-      </form>
+    <section className="bg-secondary py-16 md:py-20">
+      <div className="max-w-md mx-auto px-6">
+        <div className="bg-white rounded-2xl shadow-sm p-8">
+          <h2 className="font-heading text-2xl text-ink text-center mb-6">Escríbenos</h2>
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <input
+              type="text"
+              name="_gotcha"
+              tabIndex={-1}
+              autoComplete="off"
+              className="absolute -left-[9999px] h-px w-px overflow-hidden"
+              aria-hidden="true"
+            />
+            <TextInput
+              label="Nombre"
+              name="name"
+              withAsterisk
+              value={values.name}
+              onChange={(event) => setValues({ ...values, name: event.currentTarget.value })}
+              error={errors.name}
+            />
+            <TextInput
+              label="Correo"
+              name="email"
+              type="email"
+              withAsterisk
+              value={values.email}
+              onChange={(event) => setValues({ ...values, email: event.currentTarget.value })}
+              error={errors.email}
+            />
+            <Textarea
+              label="Mensaje"
+              name="message"
+              withAsterisk
+              minRows={4}
+              value={values.message}
+              onChange={(event) => setValues({ ...values, message: event.currentTarget.value })}
+              error={errors.message}
+            />
+            {status === "error" && (
+              <p className="text-accent text-sm">
+                Hubo un problema al enviar tu mensaje. Intenta de nuevo o escríbenos por redes sociales.
+              </p>
+            )}
+            <Button type="submit" radius="xl" loading={status === "submitting"}>
+              Enviar
+            </Button>
+          </form>
+        </div>
+      </div>
     </section>
   );
 }

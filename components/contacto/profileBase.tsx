@@ -9,11 +9,9 @@ interface ProfileBaseProps {
 
 function ProfileBase({ imagen, name }: ProfileBaseProps) {
   return (
-    <div className="flex flex-col items-center m-10 ">
-      <Avatar src={imagen} size={100} radius={120} className=""></Avatar>
-      <div>
-        <h3 className="text-white max-md:text-xl">{name}</h3>
-      </div>
+    <div className="flex flex-col items-center gap-3 bg-white rounded-2xl shadow-sm p-5">
+      <Avatar src={imagen} size={80} radius={999} />
+      <h3 className="font-heading text-sm text-ink text-center">{name}</h3>
     </div>
   );
 }
