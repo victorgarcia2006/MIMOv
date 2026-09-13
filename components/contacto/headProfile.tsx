@@ -6,28 +6,23 @@ const HeadProfile = () => {
     const profile = [
         {
             imagen: "images/camila.jpg",
-            name: "Camila Jaramillo",
-            correo: "camila.jaramillo.carrillo@gmail.com"
+            name: "Camila Jaramillo"
         },
         {
             imagen: "images/victor.jpg",
-            name: "Víctor García",
-            correo: "exporjames12@outlook.com"
+            name: "Víctor García"
         },
         {
             imagen: "images/femat.jpg",
-            name: "MTI. Carlos Femat",
-            correo: "cfemat@ipn.mx"
+            name: "MTI. Carlos Femat"
         },
         {
             imagen: "images/dani.jpg",
-            name: "Daniela Meneses",
-            correo: "danielameneses5170@gmail.com"
+            name: "Daniela Meneses"
         },
         {
             imagen: "images/villa.jpg",
-            name: "Diego Villa",
-            correo: "dvillad06@gmail.com"
+            name: "Diego Villa"
         }
     ];
 
@@ -39,7 +34,6 @@ const HeadProfile = () => {
                         <ProfileBase
                         imagen={profile.imagen}
                         name={profile.name}
-                        correo={profile.correo}
                     />
                     </div>
                 ))}

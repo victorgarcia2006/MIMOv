@@ -21,8 +21,8 @@ const SiguenosSection = () => {
     },
     {
       imagen: React.createElement(IconBrandGmail),
-      texto: "Correo",
-      href: "mailto:mimoficial4im3@gmail.com", 
+      texto: "Escríbenos",
+      href: "mailto:mimoficial4im3@gmail.com",
     }
   ];
   return (
