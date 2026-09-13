@@ -1,6 +1,9 @@
 import BarraMenu from "../components/home/Barra";
 import CabezeraMimo from "@/components/sobremimo/cabezeraMimo";
 import AutismoSection from "@/components/sobremimo/AutismoSection";
+import RespaldoSection from "@/components/sobremimo/RespaldoSection";
+import Carousel from "@/components/shared/Carousel";
+import { carouselItems } from "@/components/sobremimo/carouselData";
 import Seo from "@/components/Seo";
 import { AppShell } from "@mantine/core";
 
@@ -22,6 +25,12 @@ export default function SobreMimo() {
                 de niños de 4 a 8 años. A través de un rostro expresivo, vibración y tarjetas físicas,
                 ayuda a que los niños reconozcan, nombren y comprendan lo que sienten — a su propio ritmo."
             />
+            <section className="bg-secondary py-16 md:py-20">
+                <div className="max-w-6xl mx-auto px-6">
+                    <Carousel items={carouselItems} />
+                </div>
+            </section>
+            <RespaldoSection />
             <AutismoSection></AutismoSection>
         </AppShell>
         </>
