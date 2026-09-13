@@ -13,10 +13,6 @@ const HeadProfile = () => {
             name: "Víctor García"
         },
         {
-            imagen: "images/femat.jpg",
-            name: "MTI. Carlos Femat"
-        },
-        {
             imagen: "images/dani.jpg",
             name: "Daniela Meneses"
         },
@@ -27,7 +23,7 @@ const HeadProfile = () => {
     ];
 
     return (
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             {profile.map((profile, index) => (
                 <ProfileBase
                     key={index}
