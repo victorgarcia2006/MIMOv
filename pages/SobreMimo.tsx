@@ -6,6 +6,7 @@ import Carousel from "@/components/shared/Carousel";
 import { carouselItems } from "@/components/sobremimo/carouselData";
 import Seo from "@/components/Seo";
 import { AppShell } from "@mantine/core";
+import Link from "next/link";
 
 export default function SobreMimo() {
     return(
@@ -32,6 +33,20 @@ export default function SobreMimo() {
             </section>
             <RespaldoSection />
             <AutismoSection></AutismoSection>
+            <section className="bg-base py-16 md:py-20 text-center">
+                <div className="max-w-xl mx-auto px-6">
+                    <h2 className="font-heading text-xl text-ink">¿Buscas un resumen rápido?</h2>
+                    <p className="font-body text-ink-muted text-sm mt-2">
+                        Un resumen ejecutivo de una página con el problema, la solución y el respaldo de MIMO.
+                    </p>
+                    <Link
+                        href="/resumen-ejecutivo"
+                        className="inline-block mt-5 font-heading font-semibold rounded-full border-2 border-primary text-primary px-6 py-3 hover:bg-primary-light transition-colors no-underline"
+                    >
+                        Descargar PDF
+                    </Link>
+                </div>
+            </section>
         </AppShell>
         </>
     );
