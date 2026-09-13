@@ -9,19 +9,16 @@ const AutismoSection = () => {
     },
   ];
   return (
-    <section>
-      <div className="bg-white py-20">
-        <div className="flex flex-row justify-center items-start max-sm:flex-col">
-          <div>
-            {autismo.map((autismo, index) => (
-              <div key={index}>
-                <Autismo
-                  title={autismo.title}
-                  description={autismo.descripcion}
-                />
-              </div>
-            ))}
-          </div>
+    <section className="bg-base py-16 md:py-20">
+      <div className="max-w-2xl mx-auto px-6">
+        <div className="bg-secondary border border-primary-light rounded-2xl p-8">
+          {autismo.map((autismo, index) => (
+            <Autismo
+              key={index}
+              title={autismo.title}
+              description={autismo.descripcion}
+            />
+          ))}
         </div>
       </div>
     </section>
