@@ -6,27 +6,21 @@ html, body {
   overflow-x: hidden;
 }
 
-
-h1{
-  color: white;
-  font-weight: 600;
-  font-size: 60px;
+body {
+  background-color: #FBF8F4;
+  color: #2B2622;
+  font-family: var(--font-body), sans-serif;
 }
 
-h2{
-  color:black;
+h1, h2, h3 {
+  font-family: var(--font-heading), sans-serif;
   font-weight: 600;
-  font-size: 36px;
+  margin: 0;
 }
 
-h3{
-  color:black;
-  font-weight: 600;
-  font-size: 24px;
-}
-
-p{
+p {
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
 }
 
