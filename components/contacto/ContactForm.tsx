@@ -110,6 +110,25 @@ function ContactForm() {
               Enviar
             </Button>
           </form>
+
+          <details className="mt-5 pt-4 border-t border-secondary text-sm text-ink-muted">
+            <summary className="font-heading font-medium text-ink cursor-pointer">
+              Aviso de Privacidad Simplificado
+            </summary>
+            <p className="mt-3">
+              En MIMO utilizamos los datos que nos compartes en este formulario (nombre, correo
+              electrónico y mensaje) únicamente para responder a tu consulta. No los compartimos
+              con terceros ni los usamos para fines distintos a este.
+            </p>
+            <p className="mt-3">
+              Puedes ejercer tus derechos de acceso, rectificación, cancelación u oposición
+              (derechos ARCO) escribiéndonos a{" "}
+              <a href="mailto:descubremimo@gmail.com" className="text-primary">
+                descubremimo@gmail.com
+              </a>
+              .
+            </p>
+          </details>
         </div>
       </div>
     </section>
