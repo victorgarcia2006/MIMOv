@@ -2,7 +2,7 @@ import React from "react";
 
 function VisionMision() {
   return (
-    <div className="bg-white w-full px-40 flex flex-col justify-between items-center max-md:flex-col-reverse max-2xl:flex-col-reverse">
+    <div className="bg-white w-full px-40 py-16 flex flex-col justify-between items-center gap-10">
       <h2>Misión</h2>
       <p className="text-justify max-md:text-center max-2xl:text-center">
         Facilitar el desarrollo socioemocional de niños de 4 a 8 años mediante
