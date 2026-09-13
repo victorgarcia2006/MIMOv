@@ -10,4 +10,12 @@ export const carouselItems: CarouselItem[] = [
     imagen: "/images/mimo-perfil.jpeg",
     etiqueta: "[etiqueta pendiente]",
   },
+  {
+    imagen: "/images/mimo-cara.jpeg",
+    etiqueta: "[etiqueta pendiente]",
+  },
+  {
+    imagen: "/images/mimo-y-tarjeta.jpeg",
+    etiqueta: "[etiqueta pendiente]",
+  }
 ];
