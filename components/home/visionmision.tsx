@@ -3,62 +3,50 @@ import React from "react";
 function VisionMision() {
   return (
     <div className="bg-white w-full px-40 flex flex-col justify-between items-center max-md:flex-col-reverse max-2xl:flex-col-reverse">
-      <h2>Mision</h2>
+      <h2>Misión</h2>
       <p className="text-justify max-md:text-center max-2xl:text-center">
-        Facilitar el desarrollo social y mejorar el bienestar de niños con
-        Trastorno del Espectro Autista (TEA) proporcionando herramientas
-        innovadoras y accesibles, como peluches inteligentes, que promuevan la
-        comunicación de sus emociones y necesidades, fortaleciendo así su
-        integración en la sociedad.
+        Facilitar el desarrollo socioemocional de niños de 4 a 8 años mediante
+        herramientas interactivas y accesibles que les ayuden a reconocer,
+        nombrar y regular sus emociones, fortaleciendo su bienestar y su
+        relación con quienes los rodean.
       </p>
-      <h2>Vision</h2>
+      <h2>Visión</h2>
       <p className="text-justify max-md:text-center max-2xl:text-center">
-        Convertirnos en líderes reconocidos a nivel mundial en el desarrollo y
-        producción de peluches tecnológicos diseñados específicamente para
-        personas con autismo, siendo una empresa pionera en la creación de
-        soluciones inclusivas y empáticas que mejoren significativamente la
-        calidad de vida de quienes viven con TEA. Buscamos establecer alianzas
-        estratégicas con expertos en el campo del autismo, centros de
-        investigación y comunidades afectadas, para seguir innovando y
-        expandiendo nuestro impacto positivo en la vida de las personas con
-        autismo en todo el mundo.
+        Ser un referente en tecnología aplicada al desarrollo socioemocional
+        infantil en México y Latinoamérica, construyendo puentes entre la
+        psicología del desarrollo y la innovación tecnológica, en
+        colaboración con especialistas, escuelas y familias.
       </p>
       <h2>Objetivo</h2>
       <p className="text-justify max-md:text-center max-2xl:text-center">
-        Brindar a los niños con TEA una herramienta de apoyo integral en forma
-        de peluche inteligente que facilite la comunicación de sus emociones y
-        necesidades al resto de personas, fomentando su desarrollo social y
-        mejorando su bienestar.
+        Brindar a niños de 4 a 8 años una herramienta lúdica que acompañe su
+        desarrollo socioemocional, entregando a padres, tutores y
+        especialistas información clara sobre su progreso — sin etiquetas ni
+        diagnósticos.
       </p>
       <h2>Ventajas</h2>
       <ol className="text-justify max-md:text-center max-2xl:text-center">
         <li>
-          Facilita la comunicación: El peluche tecnológico proporciona una forma
-          visual y tangible de expresar emociones y necesidades, lo que puede
-          ser especialmente útil para aquellos con dificultades en la
-          comunicación verbal.
+          Aprendizaje progresivo: las actividades suben de dificultad según el
+          ritmo de cada niño, nunca por tiempo fijo.
         </li>
         <li>
-          Apoyo emocional: El peluche puede servir como un compañero
-          reconfortante que ayuda a calmar la ansiedad y proporciona consuelo en
-          momentos de estrés, ayudando así a regular las emociones.
+          Sin depender de la lectura: botones, expresiones y vibración
+          permiten participar incluso antes de dominar el lenguaje escrito.
         </li>
         <li>
-          Fomenta la interacción social: Al permitir que la persona con autismo
-          practique habilidades sociales con el peluche, como turnarse para
-          hablar o expresar empatía, se promueve el desarrollo de habilidades
-          sociales importantes.
+          Acompañamiento sin juicio: MIMO nunca marca error. Cuando algo no
+          sale, modela la respuesta correcta y sigue jugando.
         </li>
         <li>
-          Personalización: Los peluches pueden adaptarse a las preferencias
-          individuales de cada persona, desde el diseño hasta las funciones
-          específicas que mejor se ajusten a sus necesidades y gustos.
+          Información clara para quien cuida: cada sesión entrega datos de
+          progreso a cuidadores y especialistas, sin etiquetas evaluativas.
         </li>
         <li>
-          Estímulo sensorial controlado: Algunos peluches pueden incluir
-          características sensoriales específicas, como luces suaves o música
-          calmante, que pueden ayudar a modular la respuesta sensorial de la
-          persona con autismo en entornos sobreestimulantes.
+          Una vía adicional para necesidades especiales: el canal
+          multisensorial (visual, táctil, tangible) también es útil como
+          apoyo para niños con Trastorno del Espectro Autista, donde el apoyo
+          visual estructurado es una estrategia reconocida.
         </li>
       </ol>
     </div>
